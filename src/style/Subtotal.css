@@ -1,0 +1,42 @@
+.subtotal {
+  border-radius: 4px;
+  background-color: white;
+  color: black;
+  font-size: 14px;
+  padding: 14px 18px;
+  margin: 40px;
+}
+
+.subtotal__items,
+.subtotal__checkbox {
+  margin: 10px;
+}
+
+.subtotal__length,
+.subtotal__price {
+  color: rgb(17, 17, 17);
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.subtotal__price {
+  font-weight: 700;
+  margin-left: 10px;
+}
+
+.subtotal__checkbox > span {
+  margin-left: 10px;
+}
+
+.subtotal > button {
+  align-items: center;
+  text-align: center;
+  padding: 1px 6px;
+  line-height: 19px;
+  background-color: #f0c14b;
+  border: 1px solid;
+  border-color: #a88634 #9c7e31 #846a29;
+  margin-top: 10px;
+  color: #111;
+  width: 100%;
+}

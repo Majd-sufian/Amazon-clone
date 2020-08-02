@@ -3,7 +3,7 @@ export const initialState = {
     {
       id: "122233244",
       title: "Acer Aspire 5 Slim Laptop",
-      price: "399",
+      price: 399,
       rating: 5,
       image:
         "https://images-na.ssl-images-amazon.com/images/I/71vvXGmdKWL._AC_SL1500_.jpg",
