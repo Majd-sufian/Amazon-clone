@@ -1,5 +1,5 @@
 import React from "react";
-import "./Home.css";
+import "./style/Home.css";
 import Product from "./Product";
 
 export default function Home() {
@@ -57,7 +57,7 @@ export default function Home() {
           title="HDR Roku Smart TV - 65R625"
           price="399"
           rating={5}
-          image="https://m.media-amazon.com/images/S/aplus-media/vc/a376ac2f-07a9-4615-87f0-e32074f7e234.__CR0,0,1464,600_PT0_SX1464_V1___.png"
+          image="https://m.media-amazon.com/images/S/aplus-media/vc/a376ac2f-07a9-4615-87f0-e32074f7e234.__CR0,0,1464,600_PT0_SX1464_V1___.pnfg"
         />
       </div>
     </div>
