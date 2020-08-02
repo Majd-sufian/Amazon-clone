@@ -8,6 +8,7 @@ import { useStateValue } from "./reducer/StateProvider";
 
 function Header() {
   const [{ basket }] = useStateValue();
+  const [{ user }] = useStateValue();
 
   return (
     <div className="header">
@@ -26,7 +27,9 @@ function Header() {
         <Link to="/login" className="header__link">
           <div className="header__option">
             <span className="header__option__lineOne">Hello,</span>
-            <span className="header__option__lineTwo">Sign In</span>
+            <span className="header__option__lineTwo">
+              {user ? user.email : "Sign In"}
+            </span>
           </div>
         </Link>
 
